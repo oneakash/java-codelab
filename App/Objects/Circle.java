@@ -3,12 +3,12 @@ import App.Abstructs.*;
 
 public class Circle extends Shape implements Draw{
     double r,A;
-    Circle(String color , double r){
+    public Circle(String color , double r){
         super(color);
         this.r=r;
     }
     public double area(){
-        A= 3.14*r*r;
+        A= Math.PI*r*r;
         return A;
     }
     public void drawShape(){

@@ -1,6 +1,7 @@
 package App;
 
 import App.Abstructs.Draw;
+import App.Abstructs.Shape;
 import App.Objects.Circle;
 
 public class MainApp{
