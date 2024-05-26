@@ -1,0 +1,7 @@
+class Box{
+    
+}
+
+class DemoBoxWeight {
+    
+}
