@@ -5,9 +5,9 @@ class MyException extends Exception{
     MyException(int a){
         detail = a;
     }
-    public String toString(){
-        return "Exception for value [" + detail + "]";
-    }
+    // public String toString(){
+    //     return "Exception for value [" + detail + "]";
+    // }
 }
 
 
