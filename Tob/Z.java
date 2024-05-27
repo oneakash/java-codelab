@@ -11,6 +11,6 @@ public class Z extends Y{
         return i * j;
     }
     public void m4(){
-        System.out.println(i*i);
+        System.out.println((int)Math.pow(i, 2));
     }
 }
