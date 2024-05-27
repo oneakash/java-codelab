@@ -7,7 +7,7 @@ public class ExceptionGenerator{
     public static void b(){
         throw new NullPointerException();
     }
-    public static void c(){
+    public static void c() throws Exception{
         throw new ArrayIndexOutOfBoundsException();
     }
     public static void d() throws NullValueException{
