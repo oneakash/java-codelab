@@ -12,7 +12,7 @@ public class Circle extends Shape implements Draw{
         return A;
     }
     public void drawShape(){
-        System.out.println("Circle with Green color, " + r + " radius and "+(3.1416*r*r)+" area drawn in the Canvas.");
+        System.out.println("Circle with Green color, " + r + " radius and "+(Math.PI*r*r)+" area drawn in the Canvas.");
     }
    
 }
