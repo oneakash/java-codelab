@@ -5,7 +5,7 @@ abstract class P{
         this.i = i;
     }
     int m(int j){
-        return 2*i+2*i;
+        return 2*i+2*j;
     }
     abstract int m2(int j, int k);
     void m4(){}
@@ -25,7 +25,7 @@ public class TestC {
         Q q = new Q(5);
         r.m3("Java");
         System.out.println("1:"+r.m2(6,6));
-        System.out.println("2:"+r.m2(6,6));
+        System.out.println("2:"+q.m2(6,6));
         P p = q;
         System.out.println("3:"+p.m(15));
         System.out.println("4:"+p.i);

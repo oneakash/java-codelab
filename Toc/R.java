@@ -8,9 +8,10 @@ public class R extends Q {
         System.out.println("Hello "+st);
     }
     public int m2(int i, int j){
-        return 2*i+2*j;
+        return i*j;
     }
     public void m4(){
-        System.out.println(i+20);
+        System.out.println(i+30);
+        i+=10;
     }
 }

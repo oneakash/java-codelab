@@ -1,7 +1,6 @@
 package ToTT2;
 
 public class C extends B {
-    int j;
     public C(int i, int j){
         super(i);
     }
@@ -12,6 +11,6 @@ public class C extends B {
         return i * j;
     }
     public void m4(){
-        System.out.println(i+j);
+        System.out.println(i+10);
     }
 }
