@@ -2,7 +2,7 @@ class OpenException extends Exception{}
 class CloseException extends Exception{}
 
 public class RethrowExcDemo {
-    public static void main(String[] args) throws OpenException, CloseException {
+    public static void main(String[] args) throws Exception {
         boolean flag = args.length/2==0;
         try{
             if(flag) throw new OpenException();
